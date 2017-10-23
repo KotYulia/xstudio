@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,800');
+
+body {
+	h1, h2, h3 {
+		font: 800 10px 'Open Sans', regular;
+		text-transform: uppercase;
+	}
+	a {
+		font: 600 10px 'Open Sans', regular;
+		text-decoration: none;
+	}
+	p, span{
+		font: 400 10px 'Open Sans', regular;
+	}
+	ul {
+		list-style: none;
+	}
+}
+
+@import "header";
+@import "content";
+@import "blog";
+@import "single";
+@import "portfoil";
+@import "single-works";
+@import "footer";
+

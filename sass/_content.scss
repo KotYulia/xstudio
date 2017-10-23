@@ -1,0 +1,98 @@
+.main-slider {
+  padding: 0;
+  img {
+    width: 100%;
+  }
+  .slide-info {
+    width: 100%;
+    top: 30%;
+    left: 0;
+    h1 {
+      font-size: 8.3rem;
+      color: #fbfbfb;
+      text-transform: uppercase;
+    }
+  }
+  .home-carousel {
+    width: 0;
+    margin-top: 23%;
+    margin-right: 5.7rem;
+    opacity: 1;
+    .carousel-left, .carousel-right {
+      font-size: 3.6rem;
+      padding: 1.6rem 2.2rem;
+      background-color: #000000;
+      color: #ffffff;
+    }
+  }
+}
+.services {
+  background-color: #efefef;
+  text-align: center;
+  padding: 4.5rem 0;
+  .services-content {
+    li {
+      padding: 4rem 2.5rem;
+      &:hover {
+        background-color: #ffffff;
+        h3, span {
+          color: #fa514c;
+        }
+      }
+    }
+
+    .fa {
+      font-size: 5rem;
+      width: 11.7rem;
+      height: 11.7rem;
+      padding-top: 3.5rem;
+      color: #342251;
+      border: 1px solid #efefef;
+      border-radius: 50%;
+      background-color: #ffffff;
+    }
+    h3 {
+      font-size: 2rem;
+      font-weight: 600;
+      color: #342251;
+      margin: 3.4rem auto 1rem;
+    }
+    p {
+      font-size: 1.5rem;
+      color: #848484;
+    }
+  }
+}
+.multi-item-carousel{
+  .carousel-inner{
+    .item {
+      img {
+        width: 33%;
+        float: left;
+      }
+    }
+  }
+}
+
+.about {
+  padding: 7rem 0 9rem;
+  color: #efefef;
+  .about-info {
+    text-align: center;
+    li {
+      padding: 0 8rem;
+    }
+    h2 {
+      font-size: 3.6rem;
+      text-transform: uppercase;
+      color: #011111;
+      margin-bottom: 5rem;
+    }
+    .textwidget {
+      p {
+        font-size: 1.8rem;
+        color: #011111;
+      }
+    }
+  }
+}

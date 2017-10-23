@@ -1,0 +1,31 @@
+.site-footer {
+  background-color: #111111;
+  padding: 4.5rem 0 4rem;
+  .footer-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      p {
+        font-size: 1.8rem;
+        font-weight: 300;
+        color: #35363a;
+      }
+    .social {
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      li {
+        a {
+          font-size: 2.4rem;
+          color: #35363a;
+          padding-left: 1.5rem;
+          &:hover {
+            text-decoration: none;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

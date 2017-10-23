@@ -1,0 +1,99 @@
+.title-section {
+  text-align: center;
+  p {
+    font-size: 8.3rem;
+    font-weight: 800;
+    color: #fbfbfb;
+    margin: 20% auto;
+    text-transform: uppercase;
+  }
+}
+.title-page {
+  background-color: #f0c31b;
+  text-align: center;
+  padding: 3rem;
+  h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #ffffff;
+  }
+}
+#primary {
+  .site-main {
+    padding: 5rem 0 15.2rem;
+    .author-block {
+      padding-bottom: 4rem;
+      border-bottom: 3px solid #e7e7e7;
+      .author {
+        display: flex;
+        align-items: center;
+        .author-info {
+          margin-left: 1.8rem;
+          h3 {
+            color: #2c2b2b;
+            margin-bottom: 0.5rem;
+            font-size: 1.8rem;
+            font-weight: 700;
+          }
+          span {
+            color: #2c2b2b;
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+  }
+  .post-data {
+    padding: 1rem 0;
+    border-bottom: 3px solid #e7e7e7;
+    .entry-meta {
+      display: flex;
+      justify-content: space-between;
+      span {
+        font-size: 1.6rem;
+        color: #aaaaaa;
+      }
+    }
+  }
+  .post-text {
+    h1 {
+      color: #2c2b2b;
+      font-size: 3rem;
+      font-weight: 800;
+      margin: 4rem 0 3.6rem;
+    }
+    p {
+      color: #2c2b2b;
+      font-size: 1.6rem;
+      margin-bottom: 2rem;
+    }
+    .post-links {
+      margin: 16.2rem 0 0;
+      padding: 0;
+      li {
+        padding: 0;
+      }
+      .fa {
+        font-size: 2.9rem;
+        color: #ffffff;
+        text-align: center;
+        padding: 3rem 0;
+        width: 100%;
+        text-decoration: none;
+        &:hover {
+          background-color: #db687d;
+          transition: 300ms;
+        }
+      }
+      .fa-facebook {
+        background-color: #0460d2;
+      }
+      .fa-twitter {
+        background-color: #06caee;
+      }
+      .fa-chain {
+        background-color: #f0c31b;
+      }
+    }
+  }
+}
